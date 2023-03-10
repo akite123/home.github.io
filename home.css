@@ -1,0 +1,261 @@
+button{
+    font-size: 15px;
+    font-weight: bold;
+    background-color:white;
+    color:black;
+    padding:14px 20px;
+    margin:8px 0;
+    cursor: pointer;
+    opacity:1;
+    display:inline-block;
+}
+
+.nav-head {
+    display: flex;
+    height: 60px;
+}
+.logo{
+    height: px;
+    width: 300px;   
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container1 {
+    height:calc(100% - 200px);
+     margin-top: 50px;
+     display: grid;
+     grid-template-areas:"a b" "c d" "e f" "g h";
+     gap: 8px;
+     padding: 5px 20px 40px 20px;}   
+     
+.container2 {
+    height:calc(100% - 200px);
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas:"i j" "k l";
+    gap: 8px;
+    padding: 5px 20px 40px 20px;
+    background-color: rgb(56,75,182);
+} 
+    
+
+main div {
+    padding: 0;
+    text-align: center;
+    border-radius: 0;
+    background-color: white;}    
+
+.contenth3 { 
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #2547ab;
+    font-size: bold;}
+
+.img-main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+        
+}
+
+.div1 {
+    margin-top: 60px;
+    padding: 0;
+    
+}
+
+
+.content1 {
+    grid-area: a;
+    height: 100px;
+    font-family: 'Noto Sans';
+} 
+
+.content2 {
+    grid-area: b;
+    
+    
+}
+    
+.content3 { 
+    grid-area: c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:40px;
+    font-weight: 400;
+    line-height: 54.48px;
+} 
+
+.content4 {
+    grid-area: d;
+} 
+
+.content5 {
+    grid-area: e;
+    
+} 
+
+.content6 {
+    grid-area: f;
+} 
+.content5 {
+    grid-area: g;
+} 
+
+.content6 {
+    grid-area: h;
+} 
+
+
+.img-content {
+    width: 90%; /* utilise la largeur maximale du conteneur parent */
+    height: 500px; /* maintient les proportions de l'image */
+    object-fit: contain; /* empêche l'image de se déformer */
+  }
+
+  .img-class {
+    width: 300px;
+    height: 200px;
+  }
+  
+
+ul{
+    list-style:none;
+}
+
+.social-links{
+    font-size: 18px;
+    color: #ffffff;
+ }
+
+.text-image {
+    text-align: center;
+    font-size: 18px;
+    padding: 14%;
+}
+  
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.fixed-header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    background-color: rgb(56,75,182);
+    padding: 0;
+    margin: 0;
+}
+
+.fixed-header img {
+    height: 100px;
+    margin: 0px;
+    vertical-align: middle;
+    border-right: 0;
+}
+
+.div.log {
+    float:left;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 100px;
+    float:right;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 20px;
+    display: inline-block;
+}
+nav a.active, nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.content img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.content p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.fixed-footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(56,75,182);
+    color: #fff;
+}
+.fixed-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.fixed-footer li {
+    margin-right: 50px;
+}
+.fixed-footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.content13{
+    text-align: left;
+    padding: 20px;
+}
+
+.content13 select{
+    color:#2547ab;
+    font-size:32px;
+    display:block;
+    border:2px solid;
+}
